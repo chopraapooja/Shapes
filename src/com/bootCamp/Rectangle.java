@@ -17,4 +17,13 @@ public class Rectangle {
 
         return length*breadth;
     }
+
+    public double getPerimeter() {
+        return 2*(length+breadth);
+    }
+    public double getLength() {
+        return length;
+    }
+
+
 }
